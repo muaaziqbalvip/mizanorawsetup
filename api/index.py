@@ -4,9 +4,9 @@ import requests
 
 app = Flask(__name__)
 
-GEMINI_KEY = "TUMHARI_GEMINI_KEY"
-WHATSAPP_TOKEN = "TUMHARA_TOKEN"
-PHONE_ID = "TUMHARA_PHONE_ID"
+GEMINI_KEY = "AQ.Ab8RN6JJepno4OaBxbU_OWmi_NLX2mLvqgK2icEW8POqlcJpSg"
+WHATSAPP_TOKEN = "EAAQALrGBUZAEBSn675vQwB"
+PHONE_ID = "1348689928326141"
 
 genai.configure(api_key=GEMINI_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
